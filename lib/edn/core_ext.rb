@@ -94,7 +94,7 @@ module EDN
 end
 
 Numeric.send(:include, EDN::CoreExt::Unquoted)
-Bignum.send(:include, EDN::CoreExt::Bignum)
+Integer.send(:include, EDN::CoreExt::Bignum)
 BigDecimal.send(:include, EDN::CoreExt::BigDecimal)
 TrueClass.send(:include, EDN::CoreExt::Unquoted)
 FalseClass.send(:include, EDN::CoreExt::Unquoted)
