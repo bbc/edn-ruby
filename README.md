@@ -11,7 +11,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'edn'
+    gem 'edn', git: 'https://github.com/bbc/edn-ruby.git', tag: '1.1.2'
 
 And then execute:
 
